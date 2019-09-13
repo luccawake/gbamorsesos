@@ -434,8 +434,6 @@ void performantdelay(UINT8 numLoops){
 }
 
 UBYTE estaNaRegiaoDoTeclado(UINT8 x, UINT8 y){
-    // checar locais especiais abaixo do teclado
-    //HENRIQUE, CHECAR
     //controla a região do seletor, permitindo que ele "navegue" apenas na região do teclado -- isto é, na região
     //em que as tiles dos caracteres foram desenhadas.
     if(x==140 && y==144 || x==156 && y==144){
