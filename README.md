@@ -1,4 +1,4 @@
-# GBAMorse SOS  :computer::video_games::space_invader::sos:
+# :computer: GBAMorse SOS :video_game::space_invader::sos:
 
 This project uses GameBoy Developers Kit (GBDK) in order to programming a __Morse SOS__ to Game Boy in C language. The Morse SOS consists of a collection of two ROMs, a _master_ and a _slave_. The Master ROM has a built-in keyboard which players can type a message written in human language and send this message codified in morse language via serial port. The Slave ROM, in this project, receives that codified message and turns it into an acoustic and lighting mourse signal. We truly think Lara Croft, from the Tomb Raider series, would very much appreciate it -- and we hope you feel the same.
 
