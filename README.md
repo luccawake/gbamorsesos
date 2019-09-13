@@ -1,4 +1,4 @@
-# GBAMorse SOS
+# GBAMorse SOS  :computer::video_games::space_invader::sos:
 
 This project uses GameBoy Developers Kit (GBDK) in order to programming a __Morse SOS__ to Game Boy in C language. The Morse SOS consists of a collection of two ROMs, a _master_ and a _slave_. The Master ROM has a built-in keyboard which players can type a message written in human language and send this message codified in morse language via serial port. The Slave ROM, in this project, receives that codified message and turns it into an acoustic and lighting mourse signal. We truly think Lara Croft, from the Tomb Raider series, would very much appreciate it -- and we hope you feel the same.
 
@@ -6,21 +6,15 @@ This project uses GameBoy Developers Kit (GBDK) in order to programming a __Mors
 
 ## Useful Links
 
-Our first step took place at the Game Boy Programming Manual, the official documentation for developing to Game
-Boy. You can find it here.
+- Our first step took place at a nice community called Awesome Game Boy Development (which is truly awesome!). Check their repository [here](https://github.com/gbdev/awesome-gbdev/blob/master/README.md#documentation).
 
-There's a worthful community called Awesome Game Boy Development (which is very awesome!). Check their repository [here](https://github.com/gbdev/awesome-gbdev/blob/master/README.md#documentation).
+- [Game Boy Developers Kit (GBDK)](http://gbdk.sourceforge.net/) - use this link to see documentation and sources of GBDK.
 
-[Game Boy Developers Kit (GBDK) Documentation + Sources](http://gbdk.sourceforge.net/)
+- There's a nice newcomers project called _Sheep it Up!_ Check it [here](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/Making_a_Game_Boy_game_in_2017_A_quotSheep_It_Upquot_PostMortem_part_12.php).
 
-There's a nice newcomers project called Sheep it Up! Check it [here](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/Making_a_Game_Boy_game_in_2017_A_quotSheep_It_Upquot_PostMortem_part_12.php).
-
-There's a lack of Game Boy sound resources over the internet, but these ones helped us a lot:
-
-- [Chris Strickland's Overview of Audio Programming in Game Boy](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/audio-programming-on-the-gameboy-advance-part-1-r1823/).
-
-
-- [Gaming Monsters]((https://www.youtube.com/channel/UCMMhSfBStEti-Lqzs30HYWw/)) have a loooooot of nice tutorials over programming to Game Boy. Their YouTube videos are very useful. We'd strongly recommend to check (all of) them out.
+- There's a lack of Game Boy sound resources over the internet, but these ones helped us a lot:
+    - [Chris Strickland's Overview of Audio Programming in Game Boy](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/audio-programming-on-the-gameboy-advance-part-1-r1823/).
+    - [Gaming Monsters]((https://www.youtube.com/channel/UCMMhSfBStEti-Lqzs30HYWw/)) have a loooooot of nice tutorials over programming to Game Boy. Their YouTube videos are very useful. We'd strongly recommend to check (all of) them out.
 
 ## Compiling
 
